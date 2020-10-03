@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <title>Gameweek 1 Stats</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url('https://i.pinimg.com/originals/50/f5/74/50f5746a57ee9f233017ea19c3e5456d.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      @media only screen and (max-width: 900px) {
+        body {
+          /* The file size of this background image is 93% smaller
+             to improve page load speed on mobile internet connections */
+          background-image: url('https://i.pinimg.com/736x/56/1c/79/561c7931247d8c29753765d78694636e.jpg');
+
+        }
+      }
+      </style>
+    <div>
+      <h1>Gameweek 1 Table</h1>
+    </div>
+    <hr>
+
+    <% if(details!=null) { %>
+      <center>
+    <table class=" table text-center text-white table-bordered table-hover table-sm ">
+    <thead class="thead-light">
+    <tr>
+
+        <th>Name</th>
+        <th>Team </th>
+        <th>Points</th>
+
+    </tr>
+    </thead>
+
+    <% details.forEach(function(item){ %>
+    <tr class="it">
+
+        <td><%= item.Name%></td>
+        <td><%= item.Team %></td>
+        <td><%= item.Points%></td>
+
+
+    </tr>
+    <% }) %>
+    </table>
+    </center>
+    <% } %>
+  </body>
+</html>

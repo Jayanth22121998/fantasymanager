@@ -1,0 +1,45 @@
+
+h1{
+  font-family: Lucida Sans Typewriter ;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+table{
+
+  border-collapse: collapse;
+ width: 50%;
+
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color:none;
+  color: #E0FFFF;
+  font-family: Courier New;
+  font-size: 40px;
+  text-align: center;
+}
+.it:hover {background-color: #808080;
+}
+td
+{
+  text-align: center;
+  color: white;
+  font-family: Geneva;
+}
+
+.button{
+  background-color: transparent; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: Oldtown;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="icon" type="image/png" href="https://www.clipartkey.com/mpngs/m/167-1670148_premier-league-premier-league-lion-png.png">
+  <meta charset="utf-8">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Current Season</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('https://i1.wp.com/www.footballparadise.com/wp-content/uploads/2017/11/content.assets.pressassociation.ioc7b0795c27716b9d6b3442908-a200974b221244ea1955c507f518163455936b0f.jpg?fit=1920%2C1080&ssl=1');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    @media only screen and (min-width:300px, max-width: 900px) {
+      body {
+        /* The file size of this background image is 93% smaller
+           to improve page load speed on mobile internet connections */
+        background-image: url('https://cdn.statically.io/img/winkreport.com/wp-content/uploads/2020/03/Pep-Guardiola-issues-Kevin-De-Bruyne-injury-update-after-missing.jpg?quality=100&f=auto');
+
+      }
+    }
+
+    .mastertitle {
+      font-family: Lucida Sans Typewriter;
+      font-size: 450%;
+
+    }
+
+
+    ::placeholder {
+      color: white;
+      opacity: 0.8;
+    }
+  </style>
+  <div class="container">
+
+
+    <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav justify-content-between w-100">
+          <li>
+
+            <form action="/home1" method="post">
+
+              <button type="submit" class=" btn text-white borderless bg-transparent data-toggle=" tooltip" data-placement="bottom" title="Return Home">Home</button>
+            </form>
+
+          </li>
+          <li class="nav-item">
+
+            <form action="/data" method="post">
+              <button type="submit" class=" btn text-white bg-transparent borderless data-toggle=" tooltip" data-placement="bottom" title="Register soon!">New User</button>
+            </form>
+
+
+          </li>
+          <li class="nav-item">
+
+            <form action="/PS1" method="post">
+              <button type="submit" class=" btn text-white bg-transparent borderless data-toggle=" tooltip" data-placement="bottom" title="Peek through the history!">Previous Season </button>
+            </form>
+
+          </li>
+          <li class="nav-item">
+
+
+            <form action="/facts1" method="post">
+              <button type="submit" class=" btn text-white bg-transparent border-black data-toggle=" tooltip" data-placement="bottom" title="The unknown awaits!">Premier League Facts</button>
+            </form>
+
+          </li>
+
+
+
+        </ul>
+      </div>
+    </nav>
+
+
+  </div>
+
+  <hr>
+  <center>
+    <form ac>
+      <div class="row">
+        <div class="col col-sm">
+          <label for="Gameweek">
+            <p class=" mastertitle text-white text-center "> <strong>Gameweek Standings</strong>
+          </label>
+          <hr>
+          <input type="number" class=" text-white border-white bg-transparent form-control" id="Gameweek" placeholder=" Enter Gameweek" name="Gameweek" min="1" max="1">
+          <hr>
+
+          <button id="SB" type="submit" class="text-white border-white bg-transparent" border-white bg-transparent text-white btn btn-light">Submit</button>
+        </div>
+
+
+      </div>
+    </form>
+  </center>
+
+</body>
+
+</html>

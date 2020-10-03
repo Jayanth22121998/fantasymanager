@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/png" href="https://www.clipartkey.com/mpngs/m/167-1670148_premier-league-premier-league-lion-png.png">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>New User Entry</title>
+</head>
+
+<body>
+  <style>
+  ::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+
+
+    body {
+      background-image: url('https://i.guim.co.uk/img/media/8d1e3847b65d218f326422b6684af33e13eed42b/0_93_3484_2091/master/3484.jpg?width=1010&quality=45&auto=format&fit=max&dpr=2&s=1e004d3dd1a7e423a73430bba8eda6aa');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    @media only screen and (max-width: 900px) {
+      body {
+        /* The file size of this background image is 93% smaller
+           to improve page load speed on mobile internet connections */
+        background-image: url('https://i.pinimg.com/originals/4d/b0/3c/4db03c79b062220520208df646eff618.jpg');
+
+      }
+    }
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      font-family: Courier New;
+      color: white;
+      text-align: right;
+    }
+    .entry{
+      align: center;
+    }
+    .mastertitle {
+      font-family: Futara;
+      font-size: 250%;
+
+    }
+
+  </style>
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-lg-1">
+
+        <form action="/home1" method="post">
+          <button type="submit" class=" btn btn-dark bg-transparent border-white data-toggle=" tooltip" data-placement="bottom" title="Seems you missed recommending us to your friends!"> Home </button>
+        </form>
+      </div>
+          <div class="col-lg-5"> </div>
+    </div>
+  </div>
+  <center>
+  <p  class=" mastertitle text-center page-header text-white">Enter your stats here</p>
+  <form class="entry" method="post" action="/Success" autocomplete="off">
+
+
+
+    <label class="text-white">Enter Your Name</label> <br>
+
+    <input  class="border-white bg-transparent text-white" type="text" name="Name" placeholder="Enter Name" required minlength="3" maxlength="10"><br>
+    <hr>
+    <label class="text-white">Enter Your Team Name</label><br>
+
+    <input  class=" border-white bg-transparent text-white" type="text" name="Team" placeholder="Enter Team name" minlength="3" maxlength="25"required><br>
+<hr>
+    <label class="text-white">Enter Your Current Gameweek's Points</label><br>
+    <input class="border-white bg-transparent text-white" type="number" name="Points" placeholder="Enter Your Points" min="1" max="200"required><br>
+
+    <hr>
+    <input id='add' class="bg-transparent text-white border-white" type="submit" value="Add">
+  </form>
+
+</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>function myFunction() {
+  alert("I am an alert box!");
+} </script>
+</body>
+
+</html>
